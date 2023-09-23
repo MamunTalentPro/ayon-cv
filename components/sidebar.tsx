@@ -12,7 +12,7 @@ export default function Sidebar(){
   };
 
     return (
-      <div className="bg-teal-800 text-white w-80 px-2 rounded-l-lg ">
+      <div className="bg-[#239ec4] text-white w-80 px-2 rounded-l-lg ">
         <div className="pt-10">
           <Image  src="/ayon.jpeg" alt="Picture of Mamun" className="rounded-full mx-auto h-24" width={100} height={50} />
         </div>
