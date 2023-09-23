@@ -34,7 +34,22 @@ export default function Academic(){
           </li>
         </ul>
       </div>
-    
+      <div>
+        {" "}
+        <div>
+          <p className="text-lg font-semibold">Bankra High School,Rajshahi</p>{" "}
+          <p className="text-md "><span className="font-semibold">Ssc(Science),</span>GPA: 4.94</p>{" "}
+         
+         
+   
+        </div>
+        {/* <p className="text-slate-600 text-xs">1 February 2018-16 Feburary 2018</p> */}
+        <ul className="list-disc ml-10 text-sm">
+          <li>
+          I have completed my Ssc level in science with majors in Physics, Chemistry, Higher Math,  Biology. 
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
