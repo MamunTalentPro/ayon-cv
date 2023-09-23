@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import { useState } from 'react';
 export default function Sidebar(){
   const [isCopied, setIsCopied] = useState(false);
@@ -14,29 +14,15 @@ export default function Sidebar(){
     return (
       <div className="bg-teal-800 text-white w-80 px-2 rounded-l-lg ">
         <div className="pt-10">
-          <Image src="/keya.jpg" alt="Picture of Mamun" className="rounded-full mx-auto h-24" width={100} height={50} />
+          <Image  src="/ayon.jpeg" alt="Picture of Mamun" className="rounded-full mx-auto h-24" width={100} height={50} />
         </div>
         <div className="mt-10 mx-5 space-y-2">
-          <p className="text-xl">Personal Info</p>
+          <p className="text-xl w-44">Permanent Address</p>
 
+        
           <div className="flex space-x-2">
-            <Image src="/email.png" alt="Picture of Mamun" width={20} height={20} />
-            {/* <p className="text-xs cursor-pointer hover:underline">afrinatasmimkeya274@gmail.com</p> */}
-            {!isCopied  && <p
-              className= "text-xs cursor-pointer hover:underline"
-              onClick={ handleCopy }
-            >
-              afrinatasmimkeya274@gmail.com
-            </p>}
-            { isCopied && <p className="text-xs">Copied!</p> }
-          </div>
-          <div className="flex space-x-2">
-            <Image src="/phone-call.png" alt="Picture of Mamun" width={20} height={20} />
-            <p className="text-xs">01329530697</p>
-          </div>
-          <div className="flex space-x-2">
-            <Image src="/location.png" alt="Picture of Mamun" width={20} height={20} />
-            <p className="text-xs">Mirpur 14,Dhaka,Bangladesh</p>
+            <Image src="/location-white.png" alt="Picture of Mamun" width={20} height={20} />
+            <p className="text-md">Charghat,Rajshahi,Bangladesh</p>
           </div>
         </div>
 
